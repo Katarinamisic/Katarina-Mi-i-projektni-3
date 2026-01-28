@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meni - Katarina Mišić</title>
+    <style>
+        body {
+            background-color: #e3effa; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            background-color: #333;
+            padding: 15px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #1a2a44; 
+        }
+
+        .galerija img {
+            width: 30%; 
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .galerija img:hover {
+            transform: scale(1.1);
+        }
+
+        .video {
+            margin-top: 30px;
+        }
+
+        iframe {
+            border-radius: 15px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="o_meni.html">O meni</a></li>
+            <li><a href="vjezbe.html">Vježbe</a></li>
+            <li><a href="video.html">Video projekt</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>O meni</h1>
+        
+        <p>
+            Zovem se <strong>Katarina Mišić</strong> i studentica sam prve godine Grafičkog fakulteta u Zagrebu. 
+            Dolazim iz prelijepog <strong>Livna</strong>. Studij u Zagrebu pruža mi priliku da istražim svijet dizajna 
+            i novih tehnologija, što me iznimno veseli.
+        </p>
+        
+        <p>
+            Osim fakulteta, moji interesi uključuju sport, posebno košarku, te provođenje vremena s prijateljima. 
+            Uvijek se trudim biti kreativna i učiti nove vještine koje će mi pomoći u budućoj karijeri.
+        </p>
+
+        <hr>
+
+        <h3>Moja galerija</h3>
+        <div class="galerija">
+            <img src="kosarka2.jpg.jpg" alt="Košarkaški tim">
+            <img src="jaitoni.jpg.jpg" alt="Prijatelji">
+            <img src="cimi.jpg.jpg" alt="Svečana prigoda">
+        </div>
+
+        <hr>
+
+    <div class="video-okvir" style="max-width: 800px; margin: 20px auto; border: 5px solid #fff; box-shadow: 0px 4px 15px rgba(0,0,0,0.2); padding: 10px; background: white;">
+    <h3>Oliver Dragojević - Cesarica,moja najdraža pjesma</h3>
+    <iframe 
+        width="100%" 
+        height="450" 
+        src="https://www.youtube.com/embed/z9GzS_W7SVs" 
+        title="Oliver Dragojević - Cesarica" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+</body>
+</html>
+  
